@@ -169,7 +169,7 @@ namespace WebApplication1.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet,HttpPost]
         public string insertOTP(string id,string Otp)
         {
             tbl_forgetPass f = new tbl_forgetPass();
